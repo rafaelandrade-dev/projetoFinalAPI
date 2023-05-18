@@ -1,0 +1,16 @@
+body {
+    background-color: #000000;
+}
+.equipe {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+
+}
+img {
+    height: 200px;
+}
+.card {
+    color: rgb(255, 255, 255);
+    width: 20%;
+}

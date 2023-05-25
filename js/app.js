@@ -25,3 +25,7 @@ parallax_el.forEach((el) => {
     el.style.transition = "0.45s ubic-bezier(0.2, 0.49, 0.99)"
 })
 
+
+
+
+

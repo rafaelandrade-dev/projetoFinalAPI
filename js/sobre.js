@@ -4,7 +4,7 @@ const closeButton = document.querySelector('.popup-close')
 
 
 button.addEventListener('click', () => {
-    popup.style.display = 'block'
+    popup.style.display = 'flex'
 })
 
 

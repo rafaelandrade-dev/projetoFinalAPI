@@ -1,0 +1,126 @@
+#inicio{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    filter: brightness(80%);
+}
+
+::selection{
+    background-color: #0b372dbb;
+}
+
+.bg-img{
+    position: absolute;
+    width: 2800px;
+    top: calc(50%);
+    left: calc(50% - 80px);
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.trofeu1{
+    position: absolute;
+    width: 40vw;
+    top: calc(50% + 300px);
+    left: calc(50% - 600px);
+    z-index: 2;
+    filter: grayscale(30%);
+}
+
+.trofeu2{
+    position: absolute;
+    width: 60vw;
+    top: calc(50% + 300px);
+    left: calc(50% - 200px);
+    z-index: 3;
+    filter: grayscale(30%);
+}
+
+.trofeu3{
+    position: absolute;
+    width: 50vw;
+    top: calc(50% + 300px);
+    left: calc(50% - 20rem);
+    z-index: 4;
+
+    filter: grayscale(30%);
+}
+
+.trofeu4{
+    position: absolute;
+    width: 60vw;
+    top: calc(50% + 300px);
+    left: calc(50% - 60px);
+    z-index: 5;
+
+    filter: grayscale(30%);
+}
+
+.text{
+    position: absolute;
+    z-index: 4;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15rem;
+    color: white;
+    pointer-events: auto;
+
+}
+
+.playhard{
+    position: absolute;
+    width: 80vw;
+    top: calc(50% + 300px);
+    left: calc(50% + 300px);
+    z-index: 7;
+    filter: brightness(80%);
+}
+
+
+.fog{
+    position: absolute;
+    z-index: 16;
+    width: 100vw;
+    top: calc(50% + 317px);
+    left: calc(50% - 30px);
+
+}
+
+.vignette {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        ellipse at center, 
+        rgba(0, 0, 0, 0) 65%, 
+        rgba(0, 0, 0, 0.7)
+    );
+    pointer-events: none;
+}
+
+.parallax{
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+}
+
+@media (max-width: 1100px){
+
+    .text{
+        font-size: 12rem;
+    }
+}
+
+@media (max-width: 720px){
+
+    .text{
+        font-size: 10rem;
+    }
+}

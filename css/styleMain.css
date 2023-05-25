@@ -9,10 +9,9 @@
 
 .logo-container img{
     width: 4rem;
-    filter: brightness(100%);
 }
 body{
-    background-color: #000;
+    background-color: var(--color-black);
 }
 section{
     height: 100vh;
@@ -38,7 +37,6 @@ li{
 ul{
     padding: 0px;
     margin: 0;
-
     gap: 5rem;
     display: flex;
 }
@@ -48,19 +46,34 @@ a{
     color: white;
 }
 
-#valorant{
+.e-sports{
     height: 100vh;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgb(1,89,0);
+    background: linear-gradient(180deg, rgba(1,89,0,0) 0%, rgba(1,96,0,0) 88%, rgba(1,89,0,0.22530809859154932) 93%, rgba(0,46,0,0.8675616197183098) 100%);
 }
 
-
-#lol{
-    height: 100vh;
-    color: white;
+.equipe {
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 90%;
+}
+
+.card {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 20%;
+
+    height: 100%;
+    background-color: black;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
 }

@@ -1,0 +1,12 @@
+.slide{
+    height: 100vh;
+    background-color: black;
+}
+div > img {
+    filter: brightness(50%)
+}
+
+.textSlide{
+    font-size: 1.7rem;
+    margin-bottom: 20rem;
+}

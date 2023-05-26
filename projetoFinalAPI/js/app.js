@@ -19,15 +19,13 @@ window.addEventListener("mousemove", (e)=>{
 
     rotateDegree = (xValue / (window.innerWidth /2)) * 20
 
-    update(e.clientX)
 })
 
 parallax_el.forEach((el) => {
     el.style.transition = "0.45s ubic-bezier(0.2, 0.49, 0.99)"
 })
 
-/*==============GSAP animação============*/
-gsap.to(graph, { duration: 3,
-    ease: "expo.out",
-    y: -500
-  });
+
+
+
+

@@ -196,6 +196,23 @@
 
 
   <footer>
+    <div class="formulario">
+      <h1 class="title-form">Formulário de Contato</h1>
+      <form
+        action="https://formsubmit.co/andraderafael037@gmail.com"
+        method="POST"
+        class="form"
+      >
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" required></textarea>
+        <input type="hidden" name="_captcha" value="false"/>
+        <button type="submit">Enviar</button>
+    </div>
+
     <div class="containerSobre">
       <p>Clique aqui para saber mais sobre os desenvolvedores</p>
       <button class="sobre">SOBRE A EQUIPE</button>

@@ -180,14 +180,14 @@ footer .card-slide .image img {
 .form textarea:hover,
 .form textarea:focus {
   outline: none;
-  border-color: #09d;
-  box-shadow: 0 0 0 3px #4dc8ff;
+  border-color: crimson;
+  box-shadow: 0 0 0 3px rgb(162, 15, 44);
 }
 
 .form button {
   display: block;
   padding: 1rem;
-  background: #0072c4;
+  background: crimson;
   color: #fff;
   font: inherit;
   text-transform: uppercase;
@@ -200,7 +200,7 @@ footer .card-slide .image img {
 .form button:hover,
 .form button:focus {
   outline: none;
-  background: #09d;
+  background: crimson;
 }
 
 .formulario{
